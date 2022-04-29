@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/app.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-226212523-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-226212523-1');
+	</script>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Frowns Lizard NFT</title>
+  </head>
+  <body>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+    <div id="root"></div>
+    <div id="app">
+	    <div class="page-container">
+	    	<!-- Header -->
+			<header class="header fixed-top">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+				  	<a class="navbar-brand" href="/">
+				  		<img src="images/vectors/logo.svg" alt="Swage Bears Logo" class="d-none d-sm-inline" height="46">
+				  		<img src="images/vectors/logo-responsive.svg" alt="Swaga Bears Logo" class="d-sm-none">
+				  	</a>
+				  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    	<span class="navbar-toggler-icon"></span>
+				  	</button>
+
+				  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    	<ul class="navbar-nav ml-auto mr-xl-2">
+				    		<li class="nav-item">
+					        	<a class="nav-link" href="https://mint-swaga-bears.com/" target="_blank">
+					        		<strong>Mint</strong>
+					        	</a>
+					      	</li>
+					      	<li class="nav-item">
+					        	<a class="nav-link" href="#about">About</a>
+					      	</li>
+					      	<li class="nav-item">
+					        	<a class="nav-link" href="#roadmap">Roadmap</a>
+					      	</li>
+					      	<li class="nav-item">
+					        	<a class="nav-link" href="#team">Team</a>
+					      	</li>
+					    </ul>
+					    <ul class="social-icons">
+					    	<li>
+					    		<a href="https://twitter.com/SwagabearsNFT" target="_blank">
+					    			<span class="icon fab fa-twitter"></span>
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="https://discord.gg/k8reTCMZVW" target="_blank">
+					    			<span class="icon fab fa-discord"></span>
+					    		</a>
+					    	</li>
+					    </ul>
+					 
+				  </div>
+				</nav>
+			</header>
+			<!-- End of Header -->
+
+			<!-- Hero Section -->
+			<section id="hero" class="in-viewport">
+				<div class="container-lg">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-8 col-xl-12">
+							<div class="d-flex flex-column align-items-center bear-holder mt-sm-5 pt-5">					
+								<img src="images/bear-symbol.png" alt="The Bear" class="img-fluid flip-in-y hero-bear">
+								<h1 class="text-center main-title mt-3 slide-in-up">Swaga Bears</h1>
+								<h3 class="text-center">Mint Date: <span class="text-primary">20.04 / 17:00 GMT</span></h3>
+
+								<a class="btn btn-primary btn-lg mt-4 mr-sm-4 mb-3 mb-sm-0" 
+									href="https://mint-swaga-bears.com/" 
+									target="_blank">
+									<span class="icon icon-gift"></span>
+									<strong>MINT NOW</strong>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="main-video slide-in-up">
+						<div class="play-btn-container" data-toggle="modal" data-target="#main-video-modal">
+							<span class="play-btn">
+								<img src="images/vectors/play.svg" alt="play" class="img-fluid play-icon">
+								<img src="images/vectors/line-1.svg" alt="line" class="img-fluid line-1-icon rotation slow">
+								<img src="images/vectors/line-2.svg" alt="line" class="img-fluid line-2-icon rotation fast">
+								<img src="images/vectors/line-3.svg" alt="line" class="img-fluid line-3-icon rotation">
+							</span>
+							<span class="text-uppercase text-xl-center d-none d-md-block">
+								Play this to get to know me</span>
+							</span>
+						</div>
+						<img src="images/vectors/paper-plane.svg" alt="Paper Plane" class="img-fluid paper-plane d-none d-xl-block">
+					</div>
+				</div>
+
+				<a href="#about" class="scroll-down mb-4">
+					<span class="text d-block mb-2">Scroll Down</span>
+					<span class="icon icon-chevron-down up-and-down"></span>
+				</a>
+			</section>
+			<!-- End of Hero Section -->
+
+			<!-- About Section -->
+			<section id="about" class="my-5 in-viewport overflow-x-hidden meteorit-top">
+				<img src="images/bears/bear-1-desk.png" class="img-fluid slide-in-right d-none d-lg-block bear-desk" alt="Big Bear">
+				<div class="container-lg">
+					<div class="row justify-content-lg-end justify-content-center">
+						<div class="col-xl-5 col-lg-6 col-10 d-flex align-items-center justify-content-center justify-content-lg-start mb-lg-5 pb-lg-5">
+							<div class="text-center">
+								<h2 class="text-primary section-title quotes mb-4 slide-in-left fast text-lg-left text-center">
+									<img src="images/vectors/left-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+									I was born to STAND OUT.
+									<img src="images/vectors/right-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+								</h2>
+								<h5 class="sub-title mb-4 slide-in-left text-lg-left text-center">
+									Swaga Bears is a collection of 5555 NFTs building the greatest ALPHA group on the Solana Blockchain. 
+								</h5>
+
+								<p class="slide-in-left text-lg-left text-center">
+									20% from mint sales and 50% from royalties will go directly to the DAO wallet.
+								</p>
+
+								<p class="slide-in-left text-lg-left text-center">
+									Owning Swaga Bears gets you access to the ALPHA GROUP and makes you an exclusive member of the SB DAO with voting rights. <br>
+									Swaga Bears holders will have the opportunity to launch projects through the Swaga Bears launchpad and to get funding from the DAO wallet funds. 
+								</p>
+
+								<div class="d-flex flex-column flex-sm-row align-items-center align-items-sm-baseline justify-content-center justify-content-lg-start slide-in-left slow">
+
+									<a class="btn btn-primary mt-4 mr-sm-4 mb-3 mb-sm-0" href="https://discord.gg/k8reTCMZVW" target="_blank">
+										<span class="icon icon-discord-full"></span>
+										Join on discord
+									</a>
+
+									<!-- <a href="https://deadrare.io/" target="_blank">DEAD RARE</a> -->
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xl-6 col-lg-6 col-sm-7 col-10 text-center">
+							<img src="images/bears/bear-1.png" class="img-fluid slide-in-right d-lg-none" alt="Responsive Bear">
+						</div>
+					</div>
+				</div>
+
+				<ul class="astro-bears d-flex justify-content-between list-unstyled">
+					<li><img src="images/astro-bears/bear-1.png" class="img-fluid astro-bear-1 astro-levitation" alt="Astro Bear"></li>
+					<li><img src="images/astro-bears/bear-2.png" class="img-fluid astro-bear-2 astro-levitation slow" alt="Astro Bear"></li>
+					<li><img src="images/astro-bears/bear-3.png" class="img-fluid astro-bear-3 astro-levitation" alt="Astro Bear"></li>
+					<li><img src="images/astro-bears/bear-4.png" class="img-fluid astro-bear-4 astro-levitation fast" alt="Astro Bear"></li>
+					<li><img src="images/astro-bears/bear-5.png" class="img-fluid astro-bear-5 astro-levitation" alt="Astro Bear"></li>
+					<li><img src="images/astro-bears/bear-6.png" class="img-fluid astro-bear-6 astro-levitation slow" alt="Astro Bear"></li>
+					<li><img src="images/astro-bears/bear-7.png" class="img-fluid astro-bear-7 astro-levitation" alt="Astro Bear"></li>
+					<li><img src="images/astro-bears/bear-8.png" class="img-fluid astro-bear-8 astro-levitation fast" alt="Astro Bear"></li>
+					<li><img src="images/astro-bears/bear-9.png" class="img-fluid astro-bear-9 astro-levitation" alt="Astro Bear"></li>
+				</ul>
+			</section>
+			<!-- End of About Section -->
+
+			<!-- Video Section -->
+			<!-- <section id="video" class="py-5 in-viewport overflow-x-hidden">
+				<div class="container-lg">
+					<div class="row mt-lg-5 justify-content-center">
+						<div class="col-lg-6 col-10 order-2 order-lg-1 mt-lg-5 pt-lg-5 text-center">
+							<div class="video-holder my-5 slide-in-left">
+								<span class="play-btn" data-toggle="modal" data-target="#main-video-modal">
+									<img src="images/vectors/play.svg" alt="play" class="img-fluid play-icon">
+									<img src="images/vectors/line-1.svg" alt="line" class="img-fluid line-1-icon rotation slow">
+									<img src="images/vectors/line-2.svg" alt="line" class="img-fluid line-2-icon rotation fast">
+									<img src="images/vectors/line-3.svg" alt="line" class="img-fluid line-3-icon rotation">
+								</span>
+								<img src="images/video-thumb.jpg" alt="Click to watch" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-lg-6 col-10 order-1 order-lg-2">
+							<h2 class="text-primary section-title quotes mb-4 slide-in-right fast text-center text-lg-left">
+								<img src="images/vectors/left-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+								Live, don’t simply exist.
+								<img src="images/vectors/right-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+							</h2>
+							
+							<p class="slide-in-right text-center text-lg-left">
+								Secret events, parties, the best cities in the world, yachts, luxury hotels, celebrity guests... Swaga Bears invite you to join our high-level entrepreneur selection.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section> -->
+			<!-- End of Video Section -->
+
+			<!-- Mint Section -->
+			<section id="mint" class="bears-seciton py-5 in-viewport overflow-hidden">
+				<img src="images/bears/mint-bear-1.png" class="mint-bear-1 slide-in-left" alt="Surprise Bear">
+				<img src="images/bears/mint-bear-2.png" class="mint-bear-2 slide-in-right" alt="Surprise Bear">
+
+				<div class="container-lg">
+					<div class="text-center">
+						<h4 class="top-title slide-in-up slow">Mint Information</h4>
+						<h2 class="text-primary section-title quotes mb-4 text-center slide-in-up ">
+							<img src="images/vectors/left-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+							Make them stop & gaze.
+							<img src="images/vectors/right-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+						</h2>
+						<h5 class="sub-title text-primary font-weight-bold slide-in-up fast">
+							Mint your own unique Swaga Bear!
+						</h5>
+
+						<p class="mb-0 slide-in-up">
+							Total supply - <strong>5555 NFTs</strong>
+						</p>
+
+						<p class="mb-0 slide-in-up">
+							Free mint presale - <strong>1300 NFTs</strong>
+						</p>
+
+						<p class="slide-in-up">
+							Public sale - <strong>4255 NFTs</strong>
+						</p>
+
+						<p class="slide-in-up">
+							Price - <strong>1.5 SOL</strong>
+						</p>
+
+						<p class="slide-in-up">
+							Date - <strong>20.04.2022 17:00 GMT</strong>
+						</p>
+
+						<a class="btn btn-primary btn-lg mt-4 mr-sm-4 mb-3 mb-sm-0" 
+							href="https://mint-swaga-bears.com/" 
+							target="_blank">
+							<span class="icon icon-gift"></span>
+							<strong>MINT NOW</strong>
+						</a>
+
+						<!-- <a class="btn btn-primary mt-4 slide-in-up fast" href="https://discord.gg/k8reTCMZVW" target="_blank">
+							Join on discord
+						</a> -->
+					</div>
+
+					<!-- <div class="row justify-content-center text-center mt-5 slide-in-up slow">
+						<div class="col-xl-3 col-md-4 mb-4">
+							<div class="phase-item">
+								<img src="images/vectors/phase-1.svg" class="phase-image img-fluid" alt="Phase 1">
+								<h3 class="phase-title">Phase</h3>
+								<p class="text-muted">
+									Whitelist Sale Price 0.75 SOL!
+								</p>
+							</div>
+						</div>
+
+						<div class="col-xl-3 col-md-4 mb-4">
+							<div class="phase-item">
+								<img src="images/vectors/phase-2.svg" class="phase-image img-fluid" alt="Phase 2">
+								<h3 class="phase-title">Phase</h3>
+								<p class="text-muted">
+									Public Sale price 1 SOL!
+								</p>
+							</div>
+						</div>
+
+						<div class="col-xl-3 col-md-4 mb-4">
+							<div class="phase-item">
+								<img src="images/vectors/phase-3.svg" class="phase-image img-fluid" alt="Phase 3">
+								<h3 class="phase-title">Phase</h3>
+								<p class="text-muted">
+									Serum to mutate your bear! Price TBA!
+								</p>
+							</div>
+						</div>
+					</div> -->
+				</div>
+			</section>
+			<!-- End of Mint Section -->
+
+
+			<!-- Gif Section -->
+			<section id="gif" class="in-viewport overflow-x-hidden meteorit-top mt-md-5">
+				<div class="container-lg mt-5 pt-5">
+					<div class="text-center">
+						<h2 class="text-primary section-title quotes mb-4 text-center slide-in-up ">
+							<img src="images/vectors/left-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+							it’S COOL BEING ME
+							<img src="images/vectors/right-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+						</h2>
+						<p class="slide-in-up fast">
+							SWAGA Bear is made up of 8 traits and thousands of possibilities! 
+						</p>
+					</div>
+
+					<div class="row justify-content-center pt-3">
+						<div class="col-xl-5 col-lg-6 col-md-5 col-sm-7 col-10 text-center">
+							<div class="bear-gif-holder slide-in-left slow">
+								<img src="images/bears/bears-gif.gif" alt="Bear Gif" class="img-fluid bear-gif">
+								<img src="images/bears/base-gif.png" alt="Asteroid" class="img-fluid base-gif">
+							</div>
+						</div>
+
+						<div class="col-xl-5 col-lg-6 col-md-7 d-flex align-items-center mt-3 mt-md-0">
+							<div>
+								<h5 class="sub-title text-primary font-weight-bold text-center text-md-left slide-in-right fast">
+									5,555 Swaga Bears to mint. 
+								</h5>
+								<p class="text-center text-md-left slide-in-right slow">
+									8 traits make up each NFT of the SWAGA Bear collection, resulting in thousands of different possibilities to mint.
+								</p>
+								<h5 class="sub-title text-primary font-weight-bold mt-5 text-center text-md-left slide-in-right">
+									Traits:
+								</h5>
+
+								<div class="row justify-content-center slide-in-right fast">
+									<div class="col-6 col-md-6 col-sm-4">	
+										<ul class="checklist">
+											<li>Background</li>
+											<li>Skin</li>
+											<li>Accessory</li>
+											<li>Hand attributes</li>
+										</ul>
+									</div>
+
+									<div class="col-6 col-md-6 col-sm-4">	
+										<ul class="checklist">
+											<li>Face expression</li>
+											<li>Face item</li>
+											<li>Mouth item</li>
+											<li>Jewelry</li>
+										</ul>
+									</div>
+
+									<div class="col-12">
+										<a class="btn btn-primary btn-lg mt-4 mr-sm-4 mb-3 mb-sm-0" 
+											href="https://mint-swaga-bears.com/" 
+											target="_blank">
+											<span class="icon icon-gift"></span>
+											<strong>MINT NOW</strong>
+										</a>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End of Gif Section -->
+
+			<!-- Section: Like a Boss -->
+			<section id="like-a-boss" class="my-5 py-5 in-viewport overflow-x-hidden meteorit-bottom">
+				<div class="container-lg my-5">
+					<div class="row justify-content-center">
+						<div class="col-lg-6 col-sm-10">
+							<h4 class="top-title mb-0 text-center text-lg-left slide-in-left">The Story</h4>
+							<h2 class="text-primary section-title quotes mb-4 text-center text-lg-left slide-in-left fast">
+								<img src="images/vectors/left-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+								<span class="title-small d-inline-block">
+									Live the life that people write novels about!
+								</span>
+								<br>
+								Like a boss!
+								<img src="images/vectors/right-quote.svg" alt="Quote Mark" class="img-fluid quote-mark">
+							</h2>
+						</div>
+
+						<div class="col-lg-6 col-sm-10 mt-4">
+							<p class="slide-in-right">
+								5,555 – The Angel number that is you telling you to keep going on the same 
+								road you are on right now, because your <span class="text-primary">DREAMS</span> and <span class="text-primary">ASPIRATIONS</span> are soon going 
+								to become a <span class="text-primary">REALITY</span>!
+								The Swaga Bear project inspires you to <span class="text-primary">seek out the best in life and live the life you have always dreamed of</span>!
+							</p>
+
+							<p class="slide-in-right fast">
+								Get out of the cage - be strong, be classy, be alive! SWAGA BEAR needs YOU to build together the material lifestyle empire of our desires! Let’s break the matrix of stereotypes and don’t be the boring 9 to 5 pussy! Come with us and live the life you deserve! <span class="text-primary">Be the change!</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End of Section: Like a Boss -->
+
+			<section id="roadmap" class="mb-5 mt-4">				
+				<div class="container-lg">
+					<div class="text-center in-viewport pt-5">
+						<h2 class="text-primary mt-4 section-title position-relative mb-4 slide-in-up">
+							<img src="images/crown.png" class="img-fluid crown" alt="Crown">
+							Roadmap
+						</h2>
+
+						<!-- <h2 class="mt-5 text-secondary roadmap-title">Q1 2022</h2> -->
+					</div>
+				</div>
+					
+				<div class="roadmap-holder roadmap-holder-1">
+					<div class="container-lg position-relative">
+						<div class="timeline-holder d-none d-md-flex justify-content-center">
+							<div id="trigger1"></div>
+							<svg class="timeline-svg-1" width="288" height="1303.957" viewBox="0 0 288 1303.957" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path id="timeline-1" class="timeline" d="M147.351,0c0,42.5-43.5,71.5-41,128.5c2.207,50.31,32.806,114.489,66.345,142.283c33.538,27.794,66.391,53.478,93.391,35.478
+								s8.199-40.233-19-44c-32.652-4.522-63.561,12.911-103.087,40.869c-41,29-56.87,64.175-63.649,113.371c-10,50,12,124,79,224
+								s20.29,190.528-27,236c-26,25-75.999,27.287-73.999-5.713s46-30,89,0s34.629,79.665-8,150.713c-26.4,44-7.432,108.196,8,159
+								s-9.309,61.369-3.352,123.456" stroke="#4D4960" stroke-width="3" style="stroke-dasharray: 1303.957px; stroke-dashoffset: 1303.957px;"  fill="none" />
+							</svg>
+						</div>
+
+						<div class="row justify-content-end roadmap-item mt-5 in-viewport">
+							<div class="col-xl-5 col-lg-11 col-md-10 col-11 mb-3 mb-md-0">
+								<div class="roadmap-item slide-in-right">
+									<div class="mt-2">
+										<h3 class="roadmap-title text-primary text-uppercase font-weight-bold">
+											Phase <span class="num">1</span> 
+										</h3>
+										<ul class="roadmap-list">
+											<li><strong class="text-primary">Creating phenomenal art</strong> by the world class graffiti artists - Arsek&Erase</li>
+											<li>Huge <strong class="text-primary">Marketing Campaigns</strong></li>
+											<li><strong class="text-primary">Free Mint</strong> Whitelist</li>
+											<li>Wonderful <strong class="text-primary">SWAG Adventure</strong> with $5000 prize</li>
+											<li>Partnering with other big projects</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-end justify-content-xl-start roadmap-item in-viewport">
+							<div class="col-xl-5 col-lg-11 col-md-10 col-11 mb-3 mb-md-0">
+								<div class="roadmap-item slide-in-left slow">
+									<div class="mt-2">
+										<h3 class="roadmap-title text-primary text-uppercase font-weight-bold">
+											Phase <span class="num">2</span> 
+										</h3>
+										<ul class="roadmap-list">
+											<li>Swaga Bears listing on <strong class="text-primary">Magic Eden</strong></li>
+											<li>
+												<strong class="text-primary">Building the greatest ALPHA group on the Solana blockchain</strong>
+												<p class="mb-0">
+													Access to the ALPHA group for crypto and NFT knowledge and signals and personal development for all holders.
+												</p>
+											</li>
+											<li>
+												<strong class="text-primary">
+													DAO and Launchpad
+												</strong>
+												<p class="mb-0">							
+													50% from the royalties and 20% from mint sales are going directly to a DAO wallet. The DAO will decide where to invest. 1 NFT = 1 voting power The 20% from mint sales will be used as a funding for 1 or 2 projects presented by the holders.
+												</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-end roadmap-item in-viewport">
+							<div class="col-xl-5 col-lg-11 col-md-10 col-11 mb-3 mb-md-0">
+								<div class="roadmap-item slide-in-right fast">
+									<div class="mt-2">
+										<h3 class="roadmap-title text-primary text-uppercase font-weight-bold">
+											Phase <span class="num">3</span> 
+										</h3>
+										<strong class="text-primary">
+											Second Collection - Galactic Swaga Bears
+										</strong>
+										<p class="mb-0">
+											Holders who don't sell for 14 days will get a serum, 
+											which can be used to mutate your Swaga Bear to a
+											Galactic Swaga Bear
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row justify-content-end justify-content-xl-start roadmap-item in-viewport">
+							<div class="col-xl-5 col-lg-11 col-md-10 col-11 mb-3 mb-md-0">
+								<div class="roadmap-item slide-in-left">
+									<div class="mt-2">
+										<h3 class="roadmap-title text-primary text-uppercase font-weight-bold">
+											Phase <span class="num">4</span> 
+										</h3>
+										<strong class="text-primary">
+											Exclusive Events
+										</strong>
+										<p class="mb-0">
+											Holders who don't sell for 90 days will get access to our exclusive events in the best cities all over the world.
+										</p>
+										<strong class="text-primary">
+											Merch
+										</strong>
+										<p class="mb-0">
+											Collaboration with celebrity brands and creating the best SWAG wearables 
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row justify-content-end roadmap-item in-viewport">
+							<div class="col-xl-5 col-lg-11 col-md-10 col-11 mb-3 mb-md-0">
+								<div class="roadmap-item slide-in-right slow">
+									<div class="mt-2">
+										<h3 class="roadmap-title text-primary text-uppercase font-weight-bold">
+											Phase <span class="num">5</span> 
+										</h3>
+										<h4 class="text-uppercase font-weight-normal">
+											coming soon
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section id="team" class="my-md-5 pt-md-5">
+				<div class="container-lg pt-5">
+					<div class="text-center in-viewport pt-5">
+						<h2 class="text-primary section-title position-relative mb-4 slide-in-up">
+							<img src="images/glasses.png" class="img-fluid glasses" alt="Glasses">
+							Team
+						</h2>
+					</div>
+
+					<div class="row justify-content-center mt-5 pt-3">
+						<div class="col-xl-6 col-md-8 col-10 in-viewport">
+							<div class="team-member team-style-1 mb-5 slide-in-left">
+								<div class="team-member-image image-top-left">
+									<img src="images/team-bears/maximus.png" alt="Maximus" class="astro-levitation">
+								</div>
+
+								<div class="team-member-info py-3 px-2 px-sm-3">
+									<h4 class="text-primary">
+										Maximus
+									</h4>
+									<span class="team-member-position">
+										Creative Director
+									</span>
+
+									<p>
+										True leader, workaholic, born for great victories. 
+										A little bit selfish, but extremely good at managing teams.
+									</p>
+									<p>
+										Currently running several different successful businesses.
+										He loves to play video games in his free time.
+									</p>
+								</div>									
+							</div>
+						</div>
+
+						<div class="col-xl-6 col-md-8 col-10 in-viewport">
+							<div class="team-member team-style-2 mb-5 slide-in-right">
+								<div class="team-member-info py-3 px-2 px-sm-3">
+									<h4 class="text-primary">
+										Kevin Pumpliano 
+									</h4>
+									<span class="team-member-position">
+										Product Design
+									</span>
+
+									<p>
+										Master of details, more than 9 years of experience in graphics and custom designs. He  loves to take pictures of hot chicks on the best islands in the world.
+									</p>
+								</div>
+
+								<div class="team-member-image image-top-right">
+									<img src="images/team-bears/kevin.png" alt="Kevin Pumpliano" class="astro-levitation fast">
+								</div>								
+							</div>
+						</div>
+
+						<div class="col-xl-6 col-md-8 col-10 in-viewport">
+							<div class="team-member team-style-1 mb-5 slide-in-left">
+								<div class="team-member-info py-3 px-2 px-sm-3">
+									<h4 class="text-primary">
+										Vox
+									</h4>
+									<span class="team-member-position">
+										Marketing director
+									</span>
+
+									<p>
+										Good marketing makes the project look smart. 
+										Great marketing makes the customer feel smart.
+									</p>
+									<p>
+										He is Guru of marketing and will be 
+										responsible to make the best marketing 
+										strategy for the project. 
+									</p>
+								</div>
+								<div class="team-member-image image-top-right">
+									<img src="images/team-bears/vox.png" alt="Vox" class="astro-levitation">
+								</div>								
+							</div>
+						</div>
+
+						<div class="col-xl-6  col-md-8 col-10 in-viewport">
+							<div class="team-member team-style-2 mb-5 slide-in-right">
+								<div class="team-member-image image-middle-left">
+									<img src="images/team-bears/will.png" alt="Will Breezly" class="astro-levitation slow">
+								</div>		
+
+								<div class="team-member-info py-3 px-2 px-sm-3">
+									<h4 class="text-primary">
+										Will Breezly
+									</h4>
+									<span class="team-member-position">
+										Community and marketing
+									</span>
+
+									<p>
+										NFTs master and the most extrovert creature that exists.
+									</p>
+
+									<p>
+										He will make sure that everyone understands what we are doing and will be responsible to answer every question. Real bitcoin lover.
+									</p>
+								</div>						
+							</div>
+						</div>
+
+						<div class="col-xl-6  col-md-8 col-10 in-viewport">
+							<div class="team-member team-style-1 mb-5 slide-in-left">
+								<div class="team-member-image image-top-left">
+									<img src="images/team-bears/cj-jeffrey.png" alt="CJ Jeffrey" class="astro-levitation">
+								</div>
+
+								<div class="team-member-info py-3 px-2 px-sm-3">
+									<h4 class="text-primary">
+										CJ Jeffrey
+									</h4>
+									<span class="team-member-position">
+										Platform development and smart contract 
+									</span>
+
+									<p>
+										Genius when it comes to coding and technical issues, a real hacker.
+									</p>
+									<p>
+										He worked with some other successful projects on the 
+										blockchain in his background.
+									</p>
+								</div>									
+							</div>
+						</div>
+
+						<div class="col-xl-6  col-md-8 col-10 in-viewport">
+							<div class="team-member team-style-2 mb-5 slide-in-right">
+								<div class="team-member-info py-3 px-2 px-sm-3">
+									<h4 class="text-primary">
+										Buggzy
+									</h4>
+									<span class="team-member-position">
+										Main advisor and investor
+									</span>
+
+									<p>
+										He knows only one thing, how to generate and multiply money. Technically he is a nerd, but who cares, he is RICH.
+									</p>
+								</div>
+
+								<div class="team-member-image image-top-right">
+									<img src="images/team-bears/buggzy.png" alt="Buggzy" class="astro-levitation slow">
+								</div>								
+							</div>
+						</div>
+
+						<div class="col-xl-6  col-md-8 col-10 in-viewport">
+							<div class="team-member team-style-1 mb-5 slide-in-left">
+								<div class="team-member-info py-3 px-2 px-sm-3">
+									<h4 class="text-primary">
+										Joe Bearson
+									</h4>
+									<span class="team-member-position">
+										Project developer and crypto technical analyst
+									</span>
+
+									<p>
+										Concentration is his special power, not only when it's hot, 
+										but also through the winter hibernation period when 
+										all the bears sleep!
+									</p>
+									<p>
+										Professional crypto trader with experience in sales, management.
+									</p>
+								</div>
+								<div class="team-member-image image-top-right">
+									<img src="images/team-bears/joe.png" alt="Joe Bearson" class="astro-levitation">
+								</div>		
+							</div>
+						</div>
+
+						<div class="col-xl-6  col-md-8 col-10 in-viewport">
+							<div class="team-member team-style-2 mb-5 slide-in-right">
+								<div class="team-member-image image-middle-left">
+									<img src="images/team-bears/ben.png" alt="Ben Ursa" class="astro-levitation slow">
+								</div>		
+
+								<div class="team-member-info py-3 px-2 px-sm-3">
+									<h4 class="text-primary">
+										Ben Ursa
+									</h4>
+									<span class="team-member-position">
+										Crypto professional and sales
+									</span>
+
+									<p>
+										With years of experience in the crypto market and sales, 
+										he will be the most active person in our crypto talks and yes... he can sell the pen. 
+									</p>
+								</div>						
+							</div>
+						</div>
+
+						
+					</div>
+				</div>
+			</section>
+
+			<section id="q-and-a" class="mt-5 bears-seciton overflow-hidden">
+				<div class="in-viewport">
+					<img src="images/bears/mint-bear-1.png" class="mint-bear-1 d-none d-lg-block slide-in-left"  alt="Surprise Bear">
+					<img src="images/bears/mint-bear-2.png" class="mint-bear-2 d-none d-lg-block slide-in-right"  alt="Surprise Bear">
+				</div>
+
+				<div class="container-lg">
+					<div class="text-center pt-5 in-viewport">
+						<h2 class="text-primary title-sizes section-title position-relative mb-4 slide-in-up ">
+							<img src="images/hat.png" class="img-fluid hat" alt="Hat">
+							Q<span class="middle-title">&</span>A
+						</h2>
+					</div>
+
+					<div class="row justify-content-center mt-4">
+						<div class="col-xl-8 col-sm-10">
+							<div class="accordion" id="accordion-q">
+
+								<div class="in-viewport">
+								  	<div class="accordion-item mb-4 slide-in-up fast">
+								    	<div id="heading-0" class="accordion-heading">
+										      <h4 class="mb-0">
+										        <button class="collapsed" type="button" data-toggle="collapse" data-target="#collapse-0" aria-expanded="false" aria-controls="collapse-0">
+										        	<span class="icon icon-plus"></span>
+										        	<span class="icon icon-minus"></span>
+										        	Why should I hold my Swaga Bears NFT after the mint?
+										        </button>
+										      </h4>
+								    	</div>
+								    	<div id="collapse-0" class="collapse" aria-labelledby="heading-0" data-parent="#accordion-q">
+									     	<div class="accordion-body">
+									        	<ul class="checklist">
+									        		<li>
+									        			If you hold your Swaga Bears NFT for 14 days after the mint, 
+									        			you will be airdopped a special serum, that will create for you only a Galactic Swaga Bears NFT.
+									        		</li>
+									        		<li>
+									        			Holding Swaga Bears NFT gives you access to our special events
+									        		</li>
+									        		<li>
+									        			If you hold Swaga Bears NFT's in your wallet after minting, 
+									        			you will participate in the distribution of a certain % of the DAO wallet funds 
+									        			(Check announcements in our Discord). 
+									        		</li>
+									        	</ul>
+									      	</div>
+								    	</div>
+								  	</div>
+								</div>
+
+								<div class="in-viewport">
+								  	<div class="accordion-item mb-4 slide-in-up fast">
+								    	<div id="heading-1" class="accordion-heading">
+										      <h4 class="mb-0">
+										        <button class="collapsed" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+										        	<span class="icon icon-plus"></span>
+										        	<span class="icon icon-minus"></span>
+										        	How to get whitelisted?
+										        </button>
+										      </h4>
+								    	</div>
+								    	<div id="collapse-1" class="collapse" aria-labelledby="heading-1" data-parent="#accordion-q">
+									     	<div class="accordion-body">
+									        	Our whitelist spots are almost filled, few more spots left. Check the Discord.
+									      	</div>
+								    	</div>
+								  	</div>
+								</div>
+
+								<div class="in-viewport">
+								  	<div class="accordion-item mb-4 slide-in-up">
+								    	<div id="heading-2" class="accordion-heading">
+										      <h4 class="mb-0">
+										        <button class="collapsed" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+										        	<span class="icon icon-plus"></span>
+										        	<span class="icon icon-minus"></span>
+										        	What is the mint date and the exact price?
+										        </button>
+										      </h4>
+								    	</div>
+								    	<div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion-q">
+									     	<div class="accordion-body">
+									        	We are minting on <strong>20/04 (Wednesday) at 17:00 GMT</strong> with the price of <strong>1.5 SOL</strong>
+									      	</div>
+								    	</div>
+								  	</div>
+								</div>
+
+								<div class="in-viewport">
+								  	<div class="accordion-item mb-4 slide-in-up slow">
+								    	<div id="heading-3" class="accordion-heading">
+										      <h4 class="mb-0">
+										        <button class="collapsed" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+										        	<span class="icon icon-plus"></span>
+										        	<span class="icon icon-minus"></span>
+										        	How much is the supply?
+										        </button>
+										      </h4>
+								    	</div>
+								    	<div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion-q">
+									     	<div class="accordion-body">
+									        	Our supply consists 5555 unique Swaga Bear NFT's
+									      	</div>
+								    	</div>
+								  	</div>
+								</div>
+
+								<div class="in-viewport">
+								  	<div class="accordion-item mb-4 slide-in-up">
+								    	<div id="heading-4" class="accordion-heading">
+										      <h4 class="mb-0">
+										        <button class="collapsed" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+										        	<span class="icon icon-plus"></span>
+										        	<span class="icon icon-minus"></span>
+										        	Which blockchain you are using?
+										        </button>
+										      </h4>
+								    	</div>
+								    	<div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordion-q">
+									     	<div class="accordion-body">
+									        	Solana Blockchain, due to the minimal gas fees, compared to the ETH.
+									        	Many bluechip ETH projects are heading towards Solana.
+									      	</div>
+								    	</div>
+								  	</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+		</div>
+			
+
+		<!-- Footer -->
+		<footer class="footer mt-5 mb-4 in-viewport">
+			<div class="container-lg">
+				<div class="d-flex justify-content-center align-items-center flex-column flex-md-row mb-5 slide-in-up slow">
+					<ul class="navbar-nav mr-xl-2 d-flex flex-row mb-3 mb-md-0">
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="#about">About</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="#roadmap">Roadmap</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="#team">Team</a>
+				      	</li>
+				    </ul>
+				    <ul class="social-icons">
+				    	<!-- <li>
+				    		<a href="#" target="_blank">
+				    			<span class="icon icon-opensea-full"></span>
+				    		</a>
+				    	</li> -->
+
+				    	<!-- <li>
+				    		<a href="#" target="_blank">
+				    			<span class="icon icon-instagram-full"></span>
+				    		</a>
+				    	</li>
+ -->
+				    	<li>
+				    		<a href="https://twitter.com/SwagabearsNFT" target="_blank">
+				    			<span class="icon icon-twitter-full"></span>
+				    		</a>
+				    	</li>
+
+				    	<li>
+				    		<a href="https://discord.gg/k8reTCMZVW" target="_blank">
+				    			<span class="icon icon-discord-full"></span>
+				    		</a>
+				    	</li>
+				    </ul>
+				</div>
+
+				<div class="text-center text-muted slide-in-up">
+					&copy; 2022 Copyright Swaga Bears
+				</div>
+			</div>
+		</footer>
+		<!-- End of Footer -->
+	</div>
+
+
+
+	<div id="main-video-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+    			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          			<span aria-hidden="true">
+          				<span class="icon icon-x"></span>
+          			</span>
+        		</button>
+      			<video id="mainVideo" class="w-100" controls>
+				  <source src="video/mintvideo.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video> 
+    		</div>
+  		</div>
+	</div>
+
+	<div id="sec-video-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+    			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          			<span aria-hidden="true">
+          				<span class="icon icon-x"></span>
+          			</span>
+        		</button>
+      			<video class="w-100" controls id="sec-video">
+				  <source src="video/swaga.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video> 
+    		</div>
+  		</div>
+	</div>
+
+	<script
+  		src="https://code.jquery.com/jquery-3.6.0.min.js"
+  		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  		crossorigin="anonymous"></script>
+	
+	<script src="js/jquery.viewportchecker.js"></script>
+	<script src="js/gsap.min.js"></script>	
+	<script src="js/ScrollMagic.min.js"></script>	
+	<script src="js/plugins/animation.gsap.min.js"></script>
+	<!-- <script src="js/plugins/debug.addIndicators.min.js"></script> -->
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="js/custom.js"></script>
+    
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
